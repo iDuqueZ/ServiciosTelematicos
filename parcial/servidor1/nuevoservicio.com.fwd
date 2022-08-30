@@ -1,0 +1,17 @@
+$ORIGIN nuevoservicio.com.
+$TTL 84600
+
+
+@	IN	SOA	server.nuevoservicio.com. root@nuevoservicio.com. (
+			123312	; serial
+			1h	; refresh
+			2h	; retry
+			1w	; expire
+			1h )	; min cache
+@	IN	NS	server.nuevoservicio.com.
+
+
+; hots en la zona uwu
+
+server 	IN A		192.168.50.5
+www	IN CNAME	server
