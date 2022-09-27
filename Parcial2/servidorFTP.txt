@@ -1,0 +1,5 @@
+vim /etc/sysconfig/network
+GATEWAY=192.168.100.5
+vim /etc/vsftpd/vsftpd.conf
+service vsftpd start
+service firewalld start
